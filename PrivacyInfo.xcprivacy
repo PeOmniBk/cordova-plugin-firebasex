@@ -1,0 +1,23 @@
+{
+  "privacyTypes": [
+    {
+      "privacyType": "NSCameraUsageDescription",
+      "usageReason": "Used to allow the user to take photos for profile pictures."
+    },
+    {
+      "privacyType": "NSPhotoLibraryUsageDescription",
+      "usageReason": "Used to allow the user to choose a profile picture from their photo library."
+    },
+    {
+      "privacyType": "NSUserTrackingUsageDescription",
+      "usageReason": "Used to support Google Sign-In analytics and ad personalization."
+    }
+  ],
+  "tracking": {
+    "purposes": [
+      "appFunctionality",
+      "analytics",
+      "advertising"
+    ]
+  }
+}
