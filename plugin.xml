@@ -146,8 +146,11 @@
 				<string>remote-notification</string>
 			</array>
 		</config-file>
-
-		<resource-file src="PrivacyInfo.xcprivacy" />
+		
+		 <resource-file src="src/ios/GoogleService-Info.plist" />
+		 <resource-file src="PrivacyInfo-GoogleSignIn.xcprivacy" />
+		 <resource-file src="PrivacyInfo-GTMAppAuth.xcprivacy" />
+		 <resource-file src="PrivacyInfo-GTMSessionFetcher.xcprivacy" />
 
 		<header-file src="src/ios/AppDelegate+FirebasePlugin.h" />
 		<source-file src="src/ios/AppDelegate+FirebasePlugin.m" />

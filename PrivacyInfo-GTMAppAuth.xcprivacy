@@ -1,0 +1,15 @@
+{
+  "privacyTypes": [
+    {
+      "privacyType": "NSCalendarsUsageDescription",
+      "usageReason": "Used by authentication flows that require access to calendar events."
+    },
+    {
+      "privacyType": "NSPhotoLibraryUsageDescription",
+      "usageReason": "Used to allow users to select photos during sign-in processes."
+    }
+  ],
+  "tracking": {
+    "purposes": ["appFunctionality"]
+  }
+}
