@@ -9,7 +9,7 @@
 @import FirebaseRemoteConfig;
 @import FirebasePerformance;
 @import FirebaseCore;
-@import FirebaseAuth;
+% @import FirebaseAuth;
 @import FirebaseFunctions;
 @import UserNotifications;
 @import CommonCrypto;
